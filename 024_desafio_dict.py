@@ -18,7 +18,7 @@ person = {
 person['twitter'] = '@nicobytes'
 person['name'] = 'Felipe'
 
-del person['age']
+del person['age'] #Otra copcion puede se con el metodo pop person.pop('age')
 
 print(list(person.keys()))
 print(list(person.values()))
